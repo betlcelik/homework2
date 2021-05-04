@@ -11,10 +11,10 @@ public class Main {
 	public static void main(String[] args) {
 		Customer customer = new Customer();
 		customer.setId(1);
-		customer.setFirstName("BET‹L");
-		customer.setLastName("«EL›K");
-		customer.setDateOfBirth(2001);
-		customer.setNationalityId("35959228946");
+		customer.setFirstName("BET√úL");
+		customer.setLastName("√áEL√ùK");
+		customer.setDateOfBirth(1987);
+		customer.setNationalityId("12345678910");
 		
 		BaseCustomerManager customerManager = new StarbucksCustomerManager(new MernisServiceAdapters());
 		customerManager.save(customer);
